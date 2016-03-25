@@ -1,3 +1,7 @@
+body {
+  margin: 0 1;
+}
+
 nav {
   list-style-type: none;
 }
@@ -6,18 +10,19 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: block;
+  text-align: center;
 }
 
 nav ul li{
   list-style-type: none;
-  border: solid red;
-  float: right;
+  display: inline-block;
   width: 5em;
   text-align: center;
+  padding: 5% 0;
+  margin: 0 1em;
 }
 
-nav a:link{
+a:link{
   text-decoration: none;
 }
 
@@ -33,7 +38,7 @@ nav a:link{
     position: relative;
 }
 
-div .center{
+.center{
   margin: 0;
   border: solid;
   position: absolute;
@@ -42,6 +47,6 @@ div .center{
   right: 50%;
   text-align: center;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 
