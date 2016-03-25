@@ -3,4 +3,17 @@
     height: 20em;
     border-style: solid;
     border-radius: 30px;
+    position: relative;
+}
+
+div #center{
+  margin: 0;
+  border: solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
