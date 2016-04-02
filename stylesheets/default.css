@@ -7,10 +7,10 @@
     width: 100%;
     padding: 0;
     float: left;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
-@media only screen and (min-width: 716px) {
+@media only screen and (min-width: 827px) {
     /* For desktop: */
     .col-1 {width: 8.33%; padding: 0;}
     .col-2 {width: 16.66%;padding: 0;}
@@ -25,7 +25,7 @@
     .col-11 {width: 91.66%;padding: 0;}
     .col-12 {width: 100%;padding: 0;}
 }
-@media only screen and (min-width: 716px) {
+@media only screen and (min-width: 827px) {
   .menu {
     list-style-type: none;
     width: 100%;
@@ -40,10 +40,31 @@
 
 }
 
-@media screen and (max-width: 715px) {
+@media screen and (max-width: 827px) {
     .menu {
         display: none;
     }
+}
+
+@media screen and (max-width: 580px) {
+  .icons{
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #FFF6E5;
+    border-radius: 100%;
+    padding: 25px 30px;
+    width: auto;
+  }
+}
+@media screen and (min-width: 580px) {
+  .icons{
+    display: inline-block;
+    margin: 0 3em;
+    border: 1px solid #FFF6E5;
+    border-radius: 100%;
+    padding: 25px 30px;
+    width: auto;
+  }
 }
 
  a {
@@ -56,26 +77,25 @@ body {
   margin: 0;
   font-family: 'Playfair Display', serif;
   color: #011C26;
+  background-color: #FFF6E5;
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .logo {
   display: inline-block;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bolder;
-  color: #6B0C22;
-}
-
-.section-hdr {
-  text-align: left;
+  color: #D9042B;
+  letter-spacing: 0.5em;
 }
 
 .menu {
   list-style-type: none;
   margin: 0;
+  color: #011C26;
 }
 
 .active {
@@ -105,19 +125,25 @@ p {
   font-size:17px;
 }
 
-.fixed-bar{
-  position: fixed;
-}
 .clear_float{
   clear: both;
 }
 
-.first{
-  background: #011C26;
+.light-color{
+  /*color: #A0FFFF;*/
+  color: #FFF6E5;
 }
 
-.light-color{
-  color: #F4CB89;
+
+.section-hdr {
+  margin: 3em 0;
+  text-align: center;
+  letter-spacing: 0.8em;
+}
+
+.social-center{
+  margin: 3em 0;
+  text-align: center;
 }
 
 .center{
@@ -129,4 +155,30 @@ p {
   right: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);*/
+}
+
+.center div p:first-child{
+  margin-top: 0;
+}
+
+.first{
+  background: #011C26;
+  background: url("/Users/sashatailor/Desktop/toronto.jpeg") no-repeat top center fixed;
+   background-size: cover;
+}
+
+.experience{
+  background: #011C26;
+  background: url("/Users/sashatailor/Desktop/subway.jpg") no-repeat top center fixed;
+   background-size: cover;
+}
+
+.contact{
+  background: #011C26;
+  background: url("/Users/sashatailor/Desktop/phone 2.jpeg") no-repeat top center fixed;
+   background-size: cover;
+}
+
+.contact a{
+  margin-bottom: 0;
 }
