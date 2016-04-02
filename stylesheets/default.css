@@ -90,6 +90,7 @@ p {
   font-weight: bolder;
   color: #D9042B;
   letter-spacing: 0.5em;
+  margin-left: 10px;
 }
 
 .menu {
@@ -119,7 +120,7 @@ p {
 }
 
 .menu li:last-child {
-  margin:0px 5px 0px 25px;
+  margin:0px 15px 0px 25px;
   float: left;
   list-style:none;
   font-size:17px;
